@@ -28,7 +28,7 @@ function Header() {
                                 <ul className="header_lists-list">
                                     <li className="header_lists-item"><a href='#categorie'><p>Katalog</p></a></li>
                                     <li className="header_lists-item"><a href='#discount'><p>Aksiya</p></a></li>
-                                    <li className="header_lists-item"><a href='#aboutus'><p>Biz Haqimizda</p></a></li>
+                                    <li className="header_lists-item"><a href='#about-us'><p>Biz Haqimizda</p></a></li>
                                     <li className="header_lists-item"><a href='#address'><p>Manzilimiz</p></a></li>
                                     <li className="header_lists-item"><a href='#contact'><p>Aloqa</p></a></li>
                                 </ul>

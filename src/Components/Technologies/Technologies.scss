@@ -1,0 +1,48 @@
+.technologies__title{
+    text-align: center;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 59px;
+    margin-top: 138px;
+    margin-bottom: 81px;
+}
+
+
+.technologies__list{
+    display: flex;
+    align-items: center;
+    margin-left: -18px;
+    padding: 0;
+
+        .technologies__list-item{
+            margin-right: 30px;
+            position: relative;
+           .technologies__item-title{
+                text-align: center;
+                margin-bottom: 25px;
+                font-family: 'Raleway';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 30px;
+                line-height: 35px;
+           }
+
+        }
+}
+.technologies__play{
+    position: absolute;
+    top: 180px;
+    left: 160px;
+    cursor: pointer;
+}
+.technologies__item-text{
+    text-align: center;
+    margin-top: 30px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 26px;
+}

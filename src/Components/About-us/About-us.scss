@@ -1,0 +1,126 @@
+.company {
+    &__text {
+      margin-top: 28px;
+      margin-bottom: 20px;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 26px;
+    }
+    &--text {
+      margin: 0;
+    }
+    &__heading {
+      text-align: left;
+    }
+    &__img {
+      width: 625px;
+      height: 401px;
+      cursor: pointer;
+      @media only screen and (max-width: 600px) {
+        width: 320px;
+        height: 205px;
+      }
+    }
+
+    &-list {
+      margin-bottom: 120px;
+      margin-top: 140px;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      &__item {
+        width: 1280px;
+        font-size: 16px;
+        line-height: 16px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        @media only screen and (max-width: 600px) {
+          width: 320px;
+          flex-direction: column;
+        }
+        &:not(:last-child) {
+          margin-bottom: 80px;
+        }
+        &__wrapper {
+          width: 609px;
+          @media only screen and (max-width: 600px) {
+            width: 320px;
+          }
+        }
+        &--wrapper {
+          width: 565px;
+          @media only screen and (max-width: 600px) {
+            width: 320px;
+          }
+        }
+      }
+      &__wrapper {
+        padding: 25px 85px 25px 30px;
+        background: #eabf9f;
+        border: 2px solid #01384d;
+        box-sizing: border-box;
+        margin-right: 46px;
+        border-radius: 8px;
+      }
+      &--wrapper {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        margin: 20px 0 30px 0;
+      }
+    }
+    &-img-wrapper {
+      position: relative;
+      @media only screen and (max-width: 600px) {
+        margin-top: 30px;
+        width: 320px;
+      }
+    }
+    &__play {
+      position: absolute;
+      top: 163px;
+      left: 275px;
+      cursor: pointer;
+      @media only screen and (max-width: 600px) {
+        top: 73px;
+        left: 130px;
+      }
+    }
+  }
+  .penatibus-list {
+    &__item {
+      &:not(:last-child) {
+        margin-bottom: 17px;
+      }
+      display: flex;
+      align-items: center;
+      &::before {
+        content: "";
+        display: block;
+        width: 6px;
+        height: 6px;
+        border-radius: 50%;
+        margin-right: 15px;
+        background-color: #01384d;
+      }
+    }
+    &__text {
+      font-size: 16px;
+      line-height: 16px;
+    }
+  }
+  .libero-list {
+    &__item {
+      display: flex;
+      &:not(:last-child) {
+        margin-bottom: 17px;
+      }
+    }
+    &__numeric {
+      font-weight: bold;
+      font-size: 18px;
+      line-height: 18px;
+      color: #01384d;
+      margin-right: 15px;
+    }
+  }
