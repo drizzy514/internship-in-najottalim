@@ -20,7 +20,7 @@ function Footer() {
               </a>
             </li>
             <li className="footer-above-nav-item">
-              <a className="footer-above-nav-item__links" href="#category">
+              <a className="footer-above-nav-item__links" href="#categorie">
                 Katalog
               </a>
             </li>

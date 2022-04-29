@@ -9,6 +9,8 @@ import ProductBtn from "../../Components/ProductBtn/ProductBtn";
 import Product from "../../Components/Product/Product";
 import HeroSliderController from "../../Components/HeroSliderController/HeroSliderController";
 import Footer from "../../Components/Footer/Footer";
+import Technologies from "../../Components/Technologies/Technologies";
+import Aboutus from "../../Components/About-us/About-us";
 
 function Home () {
     const [btns, setBtns] = useState([]);
@@ -288,6 +290,8 @@ function Home () {
           </div>
         </div>
                       </section>
+                      <Technologies />
+                      <Aboutus />
                       <section className="footer">
                                 <Footer />
 
